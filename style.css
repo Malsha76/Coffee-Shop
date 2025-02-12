@@ -65,6 +65,39 @@ display: flex;
     font-weight: 500;
 }
 
+.navbar a:hover{
+    background-color: var(--main-color);
+    border-radius: 0.5rem;
+    transition-property: background-color ;
+    transition-duration: 0.5s;
+    transition-timing-function:linear;
+/* transition:0.5s all linear ; */
+   
+}
+
+.header-icon{
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 10000;
+    display:flex;
+    column-gap: 0.8rem;
+}
+.header-icon .bx{
+    color: var(--bg-color );
+}
+
+/* css walin id ekak decorate krddi id eke mulata #mark eka danw */
+#menu-icon{
+    color: var(--bg-color);
+    font-size: 24px;
+    /* mkk hri 2k overlap wenwnm z-index eka wadi eka thamai ihalinma display wenne */
+    z-index: 100001;
+    cursor: pointer;
+    display: none ;
+}
+
+
+
 /* button{
     background: var(--main-color);
     padding: var(--button-padding);
